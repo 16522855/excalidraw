@@ -93,16 +93,15 @@
   "engines": {
     "node": ">=14.0.0"
   },
-  "homepage": ".",
+  "homepage": "http://.",
   "jest": {
     "transformIgnorePatterns": [
       "node_modules/(?!(roughjs|points-on-curve|path-data-parser|points-on-path|browser-fs-access)/)"
     ],
     "resetMocks": false
   },
-  "name": "excalidraw",
+  "name": "@guanshi/excalidraw",
   "prettier": "@excalidraw/prettier-config",
-  "private": true,
   "scripts": {
     "build-node": "node ./scripts/build-node.js",
     "build:app:docker": "cross-env REACT_APP_DISABLE_SENTRY=true REACT_APP_DISABLE_TRACKING=true react-scripts build",
