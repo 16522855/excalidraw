@@ -1,6 +1,6 @@
 {
   "name": "@guanshi/excalidraw",
-  "version": "0.14.3",
+  "version": "0.14.4",
   "main": "main.js",
   "types": "types/packages/excalidraw/index.d.ts",
   "files": [
